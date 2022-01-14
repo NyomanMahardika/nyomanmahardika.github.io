@@ -11476,7 +11476,7 @@ section.resume-section .resume-section-content {
   padding-bottom: 1rem;
   background-color: var(--accent-colour);
   color: white;
-  border-radius: 30px;
+  border-radius: 15px;
   font-size: 1rem;
 }
 #dlresumedesktop:hover {
@@ -11490,17 +11490,22 @@ section.resume-section .resume-section-content {
   margin-top: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  border-radius: 30px;
+  border-radius: 10px;
   color: white;
 }
 #intro{
+  float: none;
+  clear: both;
   color: #4E545A;
 }
+
 .sociallink{
+  float: left;
   font-size: 1.2rem;
-  margin-right:1rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   text-decoration: none;
@@ -11508,6 +11513,7 @@ section.resume-section .resume-section-content {
   background-color: var(--bs-gray-700);
   border-radius: 10px;
 }
+
 .sociallink:hover {
   background-color: var(--primary-colour);
   color: white;
@@ -11528,7 +11534,15 @@ section.resume-section .resume-section-content {
 
 }
 
+.speaker{
+  font-size:1.2rem;
+  border:orchid;
+}
+
 /* time line block in work exp section */
+.workicon{
+  margin-left:-50px;
+}
 .timeline-block {
 	position: relative;
 	padding-left: 30px;
@@ -11552,20 +11566,20 @@ section.resume-section .resume-section-content {
 .timeline-block::before {
 	position: absolute;
 	content: '';
-	width: 21px;
-	height: 21px;
+	width: 25px;
+	height: 25px;
 	background-color: var(--primary-colour);
 	border: 3px solid var(--primary-colour);
 	border-radius: 50%;
-	left: -10px;
+	left: -12px;
 	top: 10px;
 }
 .timeline-block::after {
 	position: absolute;
 	content: '';
 	width: 3px;
-	height: 100%;
-	background-color: var(--primary-colour);
+	height: 101%;
+	background-color: var(--accent-colour);
 	left: -1px;
-	top: 33px;
+	top: 35px;
 }
