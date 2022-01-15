@@ -11484,9 +11484,18 @@ section.resume-section .resume-section-content {
   transition: 0.3s;
 }
 #dlresumemobile {
+  float: left;
+  font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
+  color: white;
   background-color: var(--accent-colour);
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: 10px;
   width: 99%;
 }
 #intro{
