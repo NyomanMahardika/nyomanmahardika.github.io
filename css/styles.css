@@ -11484,14 +11484,10 @@ section.resume-section .resume-section-content {
   transition: 0.3s;
 }
 #dlresumemobile {
-  text-decoration: none;
   text-align: center;
+  text-decoration: none;
   background-color: var(--accent-colour);
-  margin-top: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  border-radius: 10px;
-  color: white;
+  width: 99%;
 }
 #intro{
   float: none;
@@ -11536,13 +11532,10 @@ section.resume-section .resume-section-content {
 
 .speaker{
   font-size:1.2rem;
-  border:orchid;
 }
 
 /* time line block in work exp section */
-.workicon{
-  margin-left:-50px;
-}
+
 .timeline-block {
 	position: relative;
 	padding-left: 30px;
