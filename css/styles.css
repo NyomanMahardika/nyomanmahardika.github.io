@@ -11476,7 +11476,7 @@ section.resume-section .resume-section-content {
   padding-bottom: 1rem;
   background-color: var(--accent-colour);
   color: white;
-  border-radius: 15px;
+  border-radius: 50px;
   font-size: 1rem;
 }
 #dlresumedesktop:hover {
@@ -11494,7 +11494,7 @@ section.resume-section .resume-section-content {
   text-decoration: none;
   color: white;
   background-color: var(--accent-colour);
-  border-radius: 10px;
+  border-radius: 50px;
 }
 #intro{
   float: none;
@@ -11514,7 +11514,7 @@ section.resume-section .resume-section-content {
   text-decoration: none;
   color: white;
   background-color: var(--bs-gray-700);
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .sociallink:hover {
@@ -11529,12 +11529,13 @@ section.resume-section .resume-section-content {
   padding-right: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background-color: #F0F0F0;
+  background-color: #D1C8B4;
   border: 3px transparent;
-  border-radius:10px;
-  box-shadow: 4px 3px 8px 1px #969696;
-    	-webkit-box-shadow: 4px 3px 8px 1px #969696;
-
+  border-radius:5px;
+  
+  && .text-education-date {
+    color: var(--primary-colour);
+  }
 }
 
 .speaker{
